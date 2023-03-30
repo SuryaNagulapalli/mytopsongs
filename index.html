@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Songs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/eed1286ea2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+  <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+    <a class="navbar-brand" id="logo" href="#"><span>Music </span>Player</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-link active" id="nav-item-1" href="#home">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" id="nav-item-2" href="#trending">Trending songs</a>
+        <a class="nav-link" id="nav-item-3" href="#new">New songs</a>
+        <a class="nav-link" id="nav-item-4" href="#old">Old songs</a>
+        <a class="nav-link" id="nav-item-5" href="#all">All songs</a>
+      </div>
+    </div>
+  </nav>
+
+    <div class="song-main-page-background d-flex flex-column justify-content-center" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="main-heading pb-5">LISTEN  WHATEVER  MUSIC  YOU  WANT</h1>
+                    <button class="btn btn-warning">Listen Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="trending-songs-section pt-5 pb-5 mb-3" id="trending">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="trending-song-heading">Trending <span class="trending-song-span">Songs</span></h1>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="trending-songs-card shadow-lg p-2 mb-3">
+              <img src="https://i.ytimg.com/vi/nsMhMQfD0V0/maxresdefault.jpg" class="trending-image"/>
+              <audio controls class="song-bar" id="myAudio1">
+                <source src="[iSongs.info] 01 - Boss Party.mp3"/>
+              </audio>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="trending-songs-card shadow-lg p-2 mb-3">
+              <img src="https://static.toiimg.com/photo/msid-96732574/96732574.jpg" class="trending-image"/>
+              <audio controls class="song-bar" id="myAudio2">
+                <source src="[iSongs.info] 02 - Sridevi Chiranjeevi.mp3"/>
+              </audio>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="trending-songs-card shadow-lg p-2 mb-3">
+              <img src="https://www.koimoi.com/wp-content/new-galleries/2023/02/waltair-veerayya-hits-100-crore-shares-in-telugu-states-001.jpg" class="trending-image"/>
+              <audio controls class="song-bar" id="myAudio3">
+                <source src="[iSongs.info] 04 - Poonakaalu Loading.mp3"/>
+              </audio>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <div class="trending-songs-card shadow-lg p-2 mb-3">
+              <img src="https://static.toiimg.com/thumb/resizemode-4,width-1200,height-900,msid-96965194/96965194.jpg" class="trending-image"/>
+              <audio controls class="song-bar" id="myAudio4">
+                <source src="[iSongs.info] 05 - Neekemo Andamekkuva.mp3"/>
+              </audio>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="trending-songs-card shadow-lg p-2 mb-3">
+              <img src="https://c.saavncdn.com/209/Jinthaak-Chithaka-From-Dhamaka-Telugu-2022-20220818103145-500x500.jpg" class="trending-image"/>
+              <audio controls class="song-bar" id="myAudio5">
+                <source src="[iSongs.info] 01 - Jinthaak Chithaka.mp3"/>
+              </audio>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="trending-songs-card shadow-lg p-2 mb-3">
+              <img src="https://i.scdn.co/image/ab67616d0000b273af6631dc9f9a524d031f6eb2" class="trending-image"/>
+              <audio controls class="song-bar" id="myAudio6">
+                <source src="[iSongs.info] 02 - Mass Raja.mp3"/>
+              </audio>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <div class="trending-songs-card shadow-lg p-2 mb-3">
+              <img src="https://www.pinkvilla.com/english/images/2022/12/1710740586_dandakadiyal_1280*720.jpg" class="trending-image"/>
+              <audio controls class="song-bar" id="myAudio7">
+                <source src="[iSongs.info] 05 - Dandakadiyal.mp3"/>
+              </audio>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="trending-songs-card shadow-lg p-2 mb-3">
+              <img src="https://c.saavncdn.com/332/Almost-Padipoyindhe-Pilla-From-Das-Ka-Dhamki-Telugu-2022-20221205084208-500x500.jpg" class="trending-image"/>
+              <audio controls class="song-bar" id="myAudio8">
+                <source src="All Most Padipoyinde Pilla.mp3"/>
+              </audio>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="trending-songs-card shadow-lg p-2 mb-3">
+              <img src="https://c.saavncdn.com/814/Chamkeela-Angeelesi-From-Dasara-Telugu-Telugu-2023-20230308163334-500x500.jpg" class="trending-image"/>
+              <audio controls class="song-bar" id="myAudio9">
+                <source src="Chamkeela Angeelesi.mp3"/>
+              </audio>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <div class="trending-songs-card shadow-lg p-2 mb-3">
+              <img src="https://igimages.gumlet.io/telugu/home/dhanush_sir10112022_cc.jpg?w=376&dpr=2.6" class="trending-image"/>
+              <audio controls class="song-bar" id="myAudio10">
+                <source src="[iSongs.info] 01 - Mastaaru Mastaaru.mp3"/>
+              </audio>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="trending-songs-card shadow-lg p-2 mb-3">
+              <img src="https://teluguinfo.net/wp-content/uploads/2022/10/Dhoom-Dhaam-Dhosthaan-Song-Lyrics-%E2%80%93-Dasara-2023-Movie.jpg" class="trending-image"/>
+              <audio controls class="song-bar" id="myAudio11">
+                <source src="[iSongs.info] 01 - Dhoom Dhaam Dhosthaan.mp3"/>
+              </audio>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="trending-songs-card shadow-lg p-2 mb-3">
+              <img src="https://i.ytimg.com/vi/9esI5PpvY2Q/maxresdefault.jpg" class="trending-image"/>
+              <audio controls class="song-bar" id="myAudio12">
+                <source src="[iSongs.info] 02 - Enno Ratrulosthayi.mp3"/>
+              </audio>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+
+<div class="new-songs-section pt-5 pb-5 mb-3" id="new">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="trending-song-heading">New <span class="trending-song-span">Songs</span></h1>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://i.ytimg.com/vi/UsSORGRcqBk/maxresdefault.jpg" class="trending-image"/>
+          <audio controls class="song-bar" id="audio1">
+            <source src="C:\Users\surya\OneDrive\Desktop\html\songs\Mind Block - SenSongsMp3.Co.mp3"/>
+          </audio>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://i.ytimg.com/vi/p51PrjEt3UQ/maxresdefault.jpg" class="trending-image"/>
+          <audio controls class="song-bar" id="audio2">
+            <source src="Kannullo Nee Roopame.mp3"/>
+          </audio>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://i.ytimg.com/vi/ZPwnGINFG_4/maxresdefault.jpg" class="trending-image"/>
+          <audio controls class="song-bar" id="audio3">
+            <source src="He Is So Cute - SenSongsMp3.Co.mp3"/>
+          </audio>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://i0.wp.com/lyricsted.com/wp-content/uploads/2023/03/Chamkeela-Angeelesi-Lyrics.jpg" class="trending-image"/>
+          <audio controls class="song-bar" id="audio4">
+            <source src="Chamkeela Angeelesi.mp3"/>
+          </audio>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://c.saavncdn.com/121/Aybaboi-Gandaragolam-From-Writer-Padmabhushan-Telugu-2023-20230127213513-500x500.jpg" class="trending-image"/>
+          <audio controls class="song-bar" id="audio5">
+            <source src="Aybaboi Gandaragolam.mp3"/>
+          </audio>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://i.ytimg.com/vi/u_wB6byrl5k/maxresdefault.jpg" class="trending-image"/>
+          <audio controls class="song-bar" id="audio6">
+            <source src="[iSongs.info] 05 - Oo Antava..Oo Oo Antava.mp3"/>
+          </audio>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://i.ytimg.com/vi/AZpy7_zqlbM/maxresdefault.jpg" class="trending-image"/>
+          <audio controls class="song-bar" id="audio7">
+            <source src="[iSongs.info] 04 - Eyy Bidda Idhi Naa Adaa.mp3"/>
+          </audio>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://i.ytimg.com/vi/JJFVjxFmYlY/maxresdefault.jpg" class="trending-image"/>
+          <audio controls class="song-bar" id="audio8">
+            <source src="[iSongs.info] 03 - Saami Saami.mp3"/>
+          </audio>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://cdn-us.rapfa.me/812fa262-e93d-41b9-aef3-23fad608fd34_radio.jpg" class="trending-image"/>
+          <audio controls class="song-bar" id="audio9">
+            <source src="[iSongs.info] 03 - I Am A Monster.mp3"/>
+          </audio>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://igimages.gumlet.io/telugu/home/dhanush_sir10112022_cc.jpg?w=376&dpr=2.6" class="trending-image"/>
+          <audio controls class="song-bar" id="audio10">
+            <source src="[iSongs.info] 01 - Mastaaru Mastaaru.mp3"/>
+          </audio>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://i.ytimg.com/vi/_1BbDhiiV6A/maxresdefault.jpg" class="trending-image"/>
+          <audio controls class="song-bar" id="audio11">
+            <source src="[iSongs.info] 02 - Srivalli.mp3"/>
+          </audio>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://c.saavncdn.com/503/Yeka-Yeka-From-Amigos-Telugu-2023-20230118113140-500x500.jpg" class="trending-image"/>
+          <audio controls class="song-bar" id="audio12">
+            <source src="[iSongs.info] 01 - Yeka Yeka.mp3"/>
+          </audio>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div class="old-songs-section pt-5 pb-5 mb-3" id="old">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="trending-song-heading">Old <span class="trending-song-span">Songs</span></h1>
+      </div>  
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://i.ytimg.com/vi/I-QOdr4XMo0/maxresdefault.jpg" class="trending-image"/>
+          <audio controls class="song-bar" id="oldaudio1">
+            <source src="[iSongs.info] 01 - Gaajuvaka Pilla.mp3"/>
+          </audio>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://i.ytimg.com/vi/LrsYCN__SQk/maxresdefault.jpg" class="trending-image"/>
+          <audio controls class="song-bar" id="oldaudio2">
+            <source src="[iSongs.info] 01 - Malliswarive.mp3"/>
+          </audio>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://i.ytimg.com/vi/AfClewRYMiM/maxresdefault.jpg" class="trending-image"/>
+          <audio controls class="song-bar" id="oldaudio3">
+            <source src="[iSongs.info] 01 - Rubberu Gajulu.mp3"/>
+          </audio>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://c.saavncdn.com/579/Andala-Raamudu-2006-500x500.jpg" class="trending-image"/>
+          <audio controls class="song-bar" id="oldaudio4">
+            <source src="[iSongs.info] 02 - Chinni Chinni.mp3"/>
+          </audio>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://lyricsing.com/wp-content/uploads/Egire.jpg" class="trending-image"/>
+          <audio controls class="song-bar" id="oldaudio5">
+            <source src="[iSongs.info] 05 - Yegire Mabbulona.mp3"/>
+          </audio>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://c.saavncdn.com/941/Yevandoi-Nani-Garu-From-MCA-Telugu-2017-20171211030922-500x500.jpg" class="trending-image"/>
+          <audio controls class="song-bar" id="oldaudio6">
+            <source src="[iSongs.info] 05 - Yevandoi Nani Garu.mp3"/>
+          </audio>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://i.ytimg.com/vi/NFbmkNCV4K4/maxresdefault.jpg" class="trending-image"/>
+          <audio controls class="song-bar" id="oldaudio7">
+            <source src="[iSongs.info] 07 - Appudo Ippudo.mp3"/>
+          </audio>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://i.ytimg.com/vi/cQpe2HMkqVA/maxresdefault.jpg" class="trending-image"/>
+          <audio controls class="song-bar" id="oldaudio8">
+            <source src="[iSongs.info] 07 - Chalore Chalore Chal (Hindi) (1).mp3"/>
+          </audio>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://i.ytimg.com/vi/MOQQXX8iIOA/maxresdefault.jpg" class="trending-image"/>
+          <audio controls class="song-bar" id="oldaudio9">
+            <source src="[iSongs.info] 07 - Neelapoori.mp3"/>
+          </audio>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://i.ytimg.com/vi/L4_GPXl7qTU/maxresdefault.jpg" class="trending-image"/>
+          <audio controls class="song-bar" id="oldaudio10">
+            <source src="[iSongs.info] 08 - Badulu Tochani.mp3"/>
+          </audio>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://i.ytimg.com/vi/mWR1SFY6XaU/maxresdefault.jpg" class="trending-image"/>
+          <audio controls class="song-bar" id="oldaudio11">
+            <source src="[iSongs.info] 08 - My Heart Is Beating (Remix) (1).mp3"/>
+          </audio>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://www.cinejosh.com/newsimg/newsmainimg/prabhas-billa-to-release-in-4k_b_3008220146.jpg" class="trending-image"/>
+          <audio controls class="song-bar" id="oldaudio12">
+            <source src="My Name is Billa-SenSongsMp3.Co.mp3"/>
+          </audio>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+<div class="all-songs-section pt-5 pb-5 mb-3" id="all">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="trending-song-heading">All <span class="trending-song-span">Songs</span></h1>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://i.ytimg.com/vi/nsMhMQfD0V0/maxresdefault.jpg" class="trending-image"/>
+          <audio controls class="song-bar" id="allaudio1">
+            <source src="[iSongs.info] 01 - Boss Party.mp3"/>
+          </audio>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://static.toiimg.com/photo/msid-96732574/96732574.jpg" class="trending-image"/>
+          <audio controls class="song-bar" id="allaudio2">
+            <source src="[iSongs.info] 02 - Sridevi Chiranjeevi.mp3"/>
+          </audio>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://www.koimoi.com/wp-content/new-galleries/2023/02/waltair-veerayya-hits-100-crore-shares-in-telugu-states-001.jpg" class="trending-image"/>
+          <audio controls class="song-bar" id="allaudio3">
+            <source src="[iSongs.info] 04 - Poonakaalu Loading.mp3"/>
+          </audio>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://static.toiimg.com/thumb/resizemode-4,width-1200,height-900,msid-96965194/96965194.jpg" class="trending-image"/>
+          <audio controls class="song-bar" id="allaudio4">
+            <source src="[iSongs.info] 05 - Neekemo Andamekkuva.mp3"/>
+          </audio>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://c.saavncdn.com/209/Jinthaak-Chithaka-From-Dhamaka-Telugu-2022-20220818103145-500x500.jpg" class="trending-image"/>
+          <audio controls class="song-bar" id="allaudio5">
+            <source src="[iSongs.info] 01 - Jinthaak Chithaka.mp3"/>
+          </audio>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://i.scdn.co/image/ab67616d0000b273af6631dc9f9a524d031f6eb2" class="trending-image"/>
+          <audio controls class="song-bar" id="allaudio6">
+            <source src="[iSongs.info] 02 - Mass Raja.mp3"/>
+          </audio>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://www.pinkvilla.com/english/images/2022/12/1710740586_dandakadiyal_1280*720.jpg" class="trending-image"/>
+          <audio controls class="song-bar" id="allaudio7">
+            <source src="[iSongs.info] 05 - Dandakadiyal.mp3"/>
+          </audio>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://c.saavncdn.com/332/Almost-Padipoyindhe-Pilla-From-Das-Ka-Dhamki-Telugu-2022-20221205084208-500x500.jpg" class="trending-image"/>
+          <audio controls class="song-bar" id="allaudio8">
+            <source src="All Most Padipoyinde Pilla.mp3"/>
+          </audio>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://c.saavncdn.com/814/Chamkeela-Angeelesi-From-Dasara-Telugu-Telugu-2023-20230308163334-500x500.jpg" class="trending-image"/>
+          <audio controls class="song-bar" id="allaudio9">
+            <source src="Chamkeela Angeelesi.mp3"/>
+          </audio>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://igimages.gumlet.io/telugu/home/dhanush_sir10112022_cc.jpg?w=376&dpr=2.6" class="trending-image"/>
+          <audio controls class="song-bar" id="allaudio10">
+            <source src="[iSongs.info] 01 - Mastaaru Mastaaru.mp3"/>
+          </audio>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://teluguinfo.net/wp-content/uploads/2022/10/Dhoom-Dhaam-Dhosthaan-Song-Lyrics-%E2%80%93-Dasara-2023-Movie.jpg" class="trending-image"/>
+          <audio controls class="song-bar" id="allaudio11">
+            <source src="[iSongs.info] 01 - Dhoom Dhaam Dhosthaan.mp3"/>
+          </audio>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="trending-songs-card shadow-lg p-2 mb-3">
+          <img src="https://i.ytimg.com/vi/9esI5PpvY2Q/maxresdefault.jpg" class="trending-image"/>
+          <audio controls class="song-bar" id="allaudio12">
+            <source src="[iSongs.info] 02 - Enno Ratrulosthayi.mp3"/>
+          </audio>
+        </div>
+      </div>
+  
+  <div class="col-12 col-lg-4">
+    <div class="trending-songs-card shadow-lg p-2 mb-3">
+      <img src="https://i.ytimg.com/vi/UsSORGRcqBk/maxresdefault.jpg" class="trending-image"/>
+      <audio controls class="song-bar" id="allaudio13">
+        <source src="Mind Block - SenSongsMp3.Co.mp3"/>
+      </audio>
+    </div>
+  </div>
+  <div class="col-12 col-lg-4">
+    <div class="trending-songs-card shadow-lg p-2 mb-3">
+      <img src="https://i.ytimg.com/vi/p51PrjEt3UQ/maxresdefault.jpg" class="trending-image"/>
+      <audio controls class="song-bar" id="allaudio14">
+        <source src="Kannullo Nee Roopame.mp3"/>
+      </audio>
+    </div>
+  </div>
+  <div class="col-12 col-lg-4">
+    <div class="trending-songs-card shadow-lg p-2 mb-3">
+      <img src="https://i.ytimg.com/vi/ZPwnGINFG_4/maxresdefault.jpg" class="trending-image"/>
+      <audio controls class="song-bar" id="allaudio15">
+        <source src="He Is So Cute - SenSongsMp3.Co.mp3"/>
+      </audio>
+    </div>
+  </div>
+
+  <div class="col-12 col-lg-4">
+    <div class="trending-songs-card shadow-lg p-2 mb-3">
+      <img src="https://i0.wp.com/lyricsted.com/wp-content/uploads/2023/03/Chamkeela-Angeelesi-Lyrics.jpg" class="trending-image"/>
+      <audio controls class="song-bar" id="allaudio16">
+        <source src="Chamkeela Angeelesi.mp3"/>
+      </audio>
+    </div>
+  </div>
+  <div class="col-12 col-lg-4">
+    <div class="trending-songs-card shadow-lg p-2 mb-3">
+      <img src="https://c.saavncdn.com/121/Aybaboi-Gandaragolam-From-Writer-Padmabhushan-Telugu-2023-20230127213513-500x500.jpg" class="trending-image"/>
+      <audio controls class="song-bar" id="allaudio17">
+        <source src="Aybaboi Gandaragolam.mp3"/>
+      </audio>
+    </div>
+  </div>
+  <div class="col-12 col-lg-4">
+    <div class="trending-songs-card shadow-lg p-2 mb-3">
+      <img src="https://i.ytimg.com/vi/u_wB6byrl5k/maxresdefault.jpg" class="trending-image"/>
+      <audio controls class="song-bar" id="allaudio18">
+        <source src="[iSongs.info] 05 - Oo Antava..Oo Oo Antava.mp3"/>
+      </audio>
+    </div>
+  </div>
+
+  <div class="col-12 col-lg-4">
+    <div class="trending-songs-card shadow-lg p-2 mb-3">
+      <img src="https://i.ytimg.com/vi/AZpy7_zqlbM/maxresdefault.jpg" class="trending-image"/>
+      <audio controls class="song-bar" id="allaudio19">
+        <source src="[iSongs.info] 04 - Eyy Bidda Idhi Naa Adaa.mp3"/>
+      </audio>
+    </div>
+  </div>
+  <div class="col-12 col-lg-4">
+    <div class="trending-songs-card shadow-lg p-2 mb-3">
+      <img src="https://i.ytimg.com/vi/JJFVjxFmYlY/maxresdefault.jpg" class="trending-image"/>
+      <audio controls class="song-bar" id="allaudio20">
+        <source src="[iSongs.info] 03 - Saami Saami.mp3"/>
+      </audio>
+    </div>
+  </div>
+  <div class="col-12 col-lg-4">
+    <div class="trending-songs-card shadow-lg p-2 mb-3">
+      <img src="https://cdn-us.rapfa.me/812fa262-e93d-41b9-aef3-23fad608fd34_radio.jpg" class="trending-image"/>
+      <audio controls class="song-bar" id="allaudio21">
+        <source src="[iSongs.info] 03 - I Am A Monster.mp3"/>
+      </audio>
+    </div>
+  </div>
+
+  <div class="col-12 col-lg-4">
+    <div class="trending-songs-card shadow-lg p-2 mb-3">
+      <img src="https://igimages.gumlet.io/telugu/home/dhanush_sir10112022_cc.jpg?w=376&dpr=2.6" class="trending-image"/>
+      <audio controls class="song-bar" id="allaudio22">
+        <source src="[iSongs.info] 01 - Mastaaru Mastaaru.mp3"/>
+      </audio>
+    </div>
+  </div>
+  <div class="col-12 col-lg-4">
+    <div class="trending-songs-card shadow-lg p-2 mb-3">
+      <img src="https://i.ytimg.com/vi/_1BbDhiiV6A/maxresdefault.jpg" class="trending-image"/>
+      <audio controls class="song-bar" id="allaudio23">
+        <source src="[iSongs.info] 02 - Srivalli.mp3"/>
+      </audio>
+    </div>
+  </div>
+  <div class="col-12 col-lg-4">
+    <div class="trending-songs-card shadow-lg p-2 mb-3">
+      <img src="https://c.saavncdn.com/503/Yeka-Yeka-From-Amigos-Telugu-2023-20230118113140-500x500.jpg" class="trending-image"/>
+      <audio controls class="song-bar" id="allaudio24">
+        <source src="[iSongs.info] 01 - Yeka Yeka.mp3"/>
+      </audio>
+    </div>
+  </div>
+
+  <div class="col-12 col-lg-4">
+    <div class="trending-songs-card shadow-lg p-2 mb-3">
+      <img src="https://i.ytimg.com/vi/I-QOdr4XMo0/maxresdefault.jpg" class="trending-image"/>
+      <audio controls class="song-bar" id="allaudio25">
+        <source src="[iSongs.info] 01 - Gaajuvaka Pilla.mp3"/>
+      </audio>
+    </div>
+  </div>
+  <div class="col-12 col-lg-4">
+    <div class="trending-songs-card shadow-lg p-2 mb-3">
+      <img src="https://i.ytimg.com/vi/LrsYCN__SQk/maxresdefault.jpg" class="trending-image"/>
+      <audio controls class="song-bar" id="allaudio26">
+        <source src="[iSongs.info] 01 - Malliswarive.mp3"/>
+      </audio>
+    </div>
+  </div>
+  <div class="col-12 col-lg-4">
+    <div class="trending-songs-card shadow-lg p-2 mb-3">
+      <img src="https://i.ytimg.com/vi/AfClewRYMiM/maxresdefault.jpg" class="trending-image"/>
+      <audio controls class="song-bar" id="allaudio27">
+        <source src="[iSongs.info] 01 - Rubberu Gajulu.mp3"/>
+      </audio>
+    </div>
+  </div>
+
+  <div class="col-12 col-lg-4">
+    <div class="trending-songs-card shadow-lg p-2 mb-3">
+      <img src="https://c.saavncdn.com/579/Andala-Raamudu-2006-500x500.jpg" class="trending-image"/>
+      <audio controls class="song-bar" id="allaudio28">
+        <source src="[iSongs.info] 02 - Chinni Chinni.mp3"/>
+      </audio>
+    </div>
+  </div>
+  <div class="col-12 col-lg-4">
+    <div class="trending-songs-card shadow-lg p-2 mb-3">
+      <img src="https://lyricsing.com/wp-content/uploads/Egire.jpg" class="trending-image"/>
+      <audio controls class="song-bar" id="allaudio29">
+        <source src="[iSongs.info] 05 - Yegire Mabbulona.mp3"/>
+      </audio>
+    </div>
+  </div>
+  <div class="col-12 col-lg-4">
+    <div class="trending-songs-card shadow-lg p-2 mb-3">
+      <img src="https://c.saavncdn.com/941/Yevandoi-Nani-Garu-From-MCA-Telugu-2017-20171211030922-500x500.jpg" class="trending-image"/>
+      <audio controls class="song-bar" id="allaudio30">
+        <source src="[iSongs.info] 05 - Yevandoi Nani Garu.mp3"/>
+      </audio>
+    </div>
+  </div>
+
+  <div class="col-12 col-lg-4">
+    <div class="trending-songs-card shadow-lg p-2 mb-3">
+      <img src="https://i.ytimg.com/vi/NFbmkNCV4K4/maxresdefault.jpg" class="trending-image"/>
+      <audio controls class="song-bar" id="allaudio31">
+        <source src="[iSongs.info] 07 - Appudo Ippudo.mp3"/>
+      </audio>
+    </div>
+  </div>
+  <div class="col-12 col-lg-4">
+    <div class="trending-songs-card shadow-lg p-2 mb-3">
+      <img src="https://i.ytimg.com/vi/cQpe2HMkqVA/maxresdefault.jpg" class="trending-image"/>
+      <audio controls class="song-bar" id="allaudio32">
+        <source src="[iSongs.info] 07 - Chalore Chalore Chal (Hindi) (1).mp3"/>
+      </audio>
+    </div>
+  </div>
+  <div class="col-12 col-lg-4">
+    <div class="trending-songs-card shadow-lg p-2 mb-3">
+      <img src="https://i.ytimg.com/vi/MOQQXX8iIOA/maxresdefault.jpg" class="trending-image"/>
+      <audio controls class="song-bar" id="allaudio33">
+        <source src="[iSongs.info] 07 - Neelapoori.mp3"/>
+      </audio>
+    </div>
+  </div>
+
+  <div class="col-12 col-lg-4">
+    <div class="trending-songs-card shadow-lg p-2 mb-3">
+      <img src="https://i.ytimg.com/vi/L4_GPXl7qTU/maxresdefault.jpg" class="trending-image"/>
+      <audio controls class="song-bar" id="allaudio34">
+        <source src="[iSongs.info] 08 - Badulu Tochani.mp3"/>
+      </audio>
+    </div>
+  </div>
+  <div class="col-12 col-lg-4">
+    <div class="trending-songs-card shadow-lg p-2 mb-3">
+      <img src="https://i.ytimg.com/vi/mWR1SFY6XaU/maxresdefault.jpg" class="trending-image"/>
+      <audio controls class="song-bar" id="allaudio35">
+        <source src="[iSongs.info] 08 - My Heart Is Beating (Remix) (1).mp3"/>
+      </audio>
+    </div>
+  </div>
+  <div class="col-12 col-lg-4">
+    <div class="trending-songs-card shadow-lg p-2 mb-3">
+      <img src="https://www.cinejosh.com/newsimg/newsmainimg/prabhas-billa-to-release-in-4k_b_3008220146.jpg" class="trending-image"/>
+      <audio controls class="song-bar" id="allaudio36">
+        <source src="My Name is Billa-SenSongsMp3.Co.mp3"/>
+      </audio>
+    </div>
+  </div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<script>
+document.addEventListener('play',function(e){
+        var audios = document.getElementsByTagName('audio');
+        for (var i = 0,len = audios.length; i < len; i++){
+            if(audios[i] != e.target){
+                audios[i].pause();
+            }
+        }
+    }, true);
+
+  // var myAudio1 = document.getElementById("myAudio1");
+  // var myAudio2 = document.getElementById("myAudio2");
+  // var myAudio3 = document.getElementById("myAudio3");
+  // var myAudio4 = document.getElementById("myAudio4");
+  // var myAudio5 = document.getElementById("myAudio5");
+  // var myAudio6 = document.getElementById("myAudio6");
+  // var myAudio7 = document.getElementById("myAudio7");
+  // var myAudio8 = document.getElementById("myAudio8");
+  // var myAudio9 = document.getElementById("myAudio9");
+  // var myAudio10 = document.getElementById("myAudio10");
+  // var myAudio11 = document.getElementById("myAudio11");
+  // var myAudio12 = document.getElementById("myAudio12");
+
+myAudio1.addEventListener("ended", function() {
+  myAudio2.play();
+  
+});
+myAudio2.addEventListener("ended", function() {
+    myAudio3.play();
+  
+});
+myAudio3.addEventListener("ended", function() {
+    myAudio4.play();
+  
+});
+myAudio4.addEventListener("ended", function() {
+    myAudio5.play();
+  
+});
+myAudio5.addEventListener("ended", function() {
+    myAudio6.play();
+  
+});
+myAudio6.addEventListener("ended", function() {
+    myAudio7.play();
+  
+});
+myAudio7.addEventListener("ended", function() {
+    myAudio8.play();
+  
+});
+myAudio8.addEventListener("ended", function() {
+    myAudio9.play();
+  
+});
+myAudio9.addEventListener("ended", function() {
+    myAudio10.play();
+  
+});
+myAudio10.addEventListener("ended", function() {
+    myAudio11.play();
+  
+});
+myAudio11.addEventListener("ended", function() {
+    myAudio12.play();
+  
+});
+myAudio12.addEventListener("ended", function() {
+    myAudio1.play();
+  
+});
+
+
+
+audio1.addEventListener("ended", function() {
+  audio2.play();
+  
+});
+audio2.addEventListener("ended", function() {
+    audio3.play();
+  
+});
+audio3.addEventListener("ended", function() {
+    audio4.play();
+  
+});
+audio4.addEventListener("ended", function() {
+    audio5.play();
+  
+});
+audio5.addEventListener("ended", function() {
+    audio6.play();
+  
+});
+audio6.addEventListener("ended", function() {
+    audio7.play();
+  
+});
+audio7.addEventListener("ended", function() {
+    audio8.play();
+  
+});
+audio8.addEventListener("ended", function() {
+    audio9.play();
+  
+});
+audio9.addEventListener("ended", function() {
+    audio10.play();
+  
+});
+audio10.addEventListener("ended", function() {
+    audio11.play();
+  
+});
+audio11.addEventListener("ended", function() {
+    audio12.play();
+  
+});
+audio12.addEventListener("ended", function() {
+    audio1.play();
+  
+});
+
+
+
+oldaudio1.addEventListener("ended", function() {
+  oldaudio2.play();
+  
+});
+oldaudio2.addEventListener("ended", function() {
+    oldaudio3.play();
+  
+});
+oldaudio3.addEventListener("ended", function() {
+    oldaudio4.play();
+  
+});
+oldaudio4.addEventListener("ended", function() {
+    oldaudio5.play();
+  
+});
+oldaudio5.addEventListener("ended", function() {
+    oldaudio6.play();
+  
+});
+oldaudio6.addEventListener("ended", function() {
+    oldaudio7.play();
+  
+});
+oldaudio7.addEventListener("ended", function() {
+    oldaudio8.play();
+  
+});
+oldaudio8.addEventListener("ended", function() {
+    oldaudio9.play();
+  
+});
+oldaudio9.addEventListener("ended", function() {
+    oldaudio10.play();
+  
+});
+oldaudio10.addEventListener("ended", function() {
+    oldaudio11.play();
+  
+});
+oldaudio11.addEventListener("ended", function() {
+    oldaudio12.play();
+  
+});
+oldaudio12.addEventListener("ended", function() {
+    oldaudio1.play();
+  
+});
+
+
+
+allaudio1.addEventListener("ended", function() {
+  allaudio2.play();
+  
+});
+allaudio2.addEventListener("ended", function() {
+    allaudio3.play();
+  
+});
+allaudio3.addEventListener("ended", function() {
+    allaudio4.play();
+  
+});
+allaudio4.addEventListener("ended", function() {
+    allaudio5.play();
+  
+});
+allaudio5.addEventListener("ended", function() {
+    allaudio6.play();
+  
+});
+allaudio6.addEventListener("ended", function() {
+    allaudio7.play();
+  
+});
+allaudio7.addEventListener("ended", function() {
+    allaudio8.play();
+  
+});
+allaudio8.addEventListener("ended", function() {
+    allaudio9.play();
+  
+});
+allaudio9.addEventListener("ended", function() {
+    allaudio10.play();
+  
+});
+allaudio10.addEventListener("ended", function() {
+    allaudio11.play();
+  
+});
+allaudio11.addEventListener("ended", function() {
+    allaudio12.play();
+  
+});
+allaudio12.addEventListener("ended", function() {
+    allaudio13.play();
+  
+});allaudio13.addEventListener("ended", function() {
+  allaudio14.play();
+  
+});
+allaudio14.addEventListener("ended", function() {
+    allaudio15.play();
+  
+});
+allaudio15.addEventListener("ended", function() {
+    allaudio16.play();
+  
+});
+allaudio16.addEventListener("ended", function() {
+    allaudio17.play();
+  
+});
+allaudio17.addEventListener("ended", function() {
+    allaudio18.play();
+  
+});
+allaudio18.addEventListener("ended", function() {
+    allaudio19.play();
+  
+});
+allaudio19.addEventListener("ended", function() {
+    allaudio20.play();
+  
+});
+allaudio20.addEventListener("ended", function() {
+    allaudio21.play();
+  
+});
+allaudio21.addEventListener("ended", function() {
+    allaudio22.play();
+  
+});
+allaudio22.addEventListener("ended", function() {
+    allaudio23.play();
+  
+});
+allaudio23.addEventListener("ended", function() {
+    allaudio24.play();
+  
+});
+allaudio24.addEventListener("ended", function() {
+    allaudio25.play();
+  
+});
+allaudio25.addEventListener("ended", function() {
+  allaudio26.play();
+  
+});
+allaudio26.addEventListener("ended", function() {
+    allaudio27.play();
+  
+});
+allaudio27.addEventListener("ended", function() {
+    allaudio28.play();
+  
+});
+allaudio28.addEventListener("ended", function() {
+    allaudio29.play();
+  
+});
+allaudio29.addEventListener("ended", function() {
+    allaudio30.play();
+  
+});
+allaudio30.addEventListener("ended", function() {
+    allaudio31.play();
+  
+});
+allaudio31.addEventListener("ended", function() {
+    allaudio32.play();
+  
+});
+allaudio32.addEventListener("ended", function() {
+    allaudio33.play();
+  
+});
+allaudio33.addEventListener("ended", function() {
+    allaudio34.play();
+  
+});
+allaudio34.addEventListener("ended", function() {
+    allaudio35.play();
+  
+});
+allaudio35.addEventListener("ended", function() {
+    allaudio36.play();
+  
+});
+allaudio36.addEventListener("ended", function() {
+    allaudio1.play();
+  
+});
+
+
+
+
+
+</script>
+
+
+</body>
+</html>
